@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BeerStylesView" customModule="Beer_SRM_Scale" customModuleProvider="target">
+            <connections>
+                <outlet property="button" destination="ZuQ-SM-rZb" id="icc-vc-6c9"/>
+                <outlet property="textView" destination="EHH-ql-e5b" id="5dR-xd-id4"/>
+                <outlet property="view" destination="MKW-zo-KiE" id="5dl-Tg-5cG"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="MKW-zo-KiE">
+            <rect key="frame" x="0.0" y="0.0" width="160" height="300"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZuQ-SM-rZb">
+                    <rect key="frame" x="8" y="8" width="144" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="Y6w-jx-ioC"/>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="cw2-ex-CAQ"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <state key="normal" title="Beer Styles">
+                        <color key="titleColor" red="0.96470594409999999" green="0.96470594409999999" blue="0.95686280729999995" alpha="1" colorSpace="deviceRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="buttonPressed:" destination="-1" eventType="touchUpInside" id="Vg4-6P-BVH"/>
+                    </connections>
+                </button>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EHH-ql-e5b">
+                    <rect key="frame" x="8" y="54" width="144" height="196"/>
+                    <string key="text">Beer Style, Beer Style, Beer Style, Beer Style, Beer Style, Beer Style, Beer Style, Beer Style, Beer Style, Beer Style, Beer Style, Beer Style, Beer Style, Beer Style, Beer Style, Beer Style, Beer Style, Beer Style, Beer Style, Beer Style, </string>
+                    <color key="textColor" red="0.96470594409999999" green="0.96470594409999999" blue="0.95686280729999995" alpha="1" colorSpace="deviceRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+            </subviews>
+            <constraints>
+                <constraint firstItem="ZuQ-SM-rZb" firstAttribute="leading" secondItem="MKW-zo-KiE" secondAttribute="leading" constant="8" id="2ck-BY-zpk"/>
+                <constraint firstItem="EHH-ql-e5b" firstAttribute="leading" secondItem="MKW-zo-KiE" secondAttribute="leading" constant="8" id="87s-Zi-Xy6"/>
+                <constraint firstAttribute="bottom" secondItem="EHH-ql-e5b" secondAttribute="bottom" constant="50" id="Ugi-ki-XyM"/>
+                <constraint firstAttribute="trailing" secondItem="ZuQ-SM-rZb" secondAttribute="trailing" constant="8" id="bQX-kF-aIt"/>
+                <constraint firstItem="EHH-ql-e5b" firstAttribute="top" secondItem="ZuQ-SM-rZb" secondAttribute="bottom" constant="16" id="kdb-iY-eTi"/>
+                <constraint firstAttribute="trailing" secondItem="EHH-ql-e5b" secondAttribute="trailing" constant="8" id="sr4-8K-VnI"/>
+                <constraint firstItem="ZuQ-SM-rZb" firstAttribute="top" secondItem="MKW-zo-KiE" secondAttribute="top" constant="8" id="y2w-u4-lRb"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="302" y="454"/>
+        </view>
+    </objects>
+</document>

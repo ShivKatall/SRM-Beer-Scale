@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D2D45FE1A7021710049813E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2D45FD1A7021710049813E /* AppDelegate.swift */; };
+		3D2D46001A7021710049813E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2D45FF1A7021710049813E /* ViewController.swift */; };
+		3D2D46031A7021710049813E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D2D46011A7021710049813E /* Main.storyboard */; };
+		3D2D46051A7021710049813E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D2D46041A7021710049813E /* Images.xcassets */; };
+		3D2D46081A7021710049813E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D2D46061A7021710049813E /* LaunchScreen.xib */; };
+		3D2D46141A7021710049813E /* Beer_SRM_ScaleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2D46131A7021710049813E /* Beer_SRM_ScaleTests.swift */; };
+		3D549E151A76FD80006DDC8F /* BeerStylesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D549E141A76FD80006DDC8F /* BeerStylesController.swift */; };
+		3D549E181A770807006DDC8F /* BeerStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D549E171A770807006DDC8F /* BeerStyle.swift */; };
+		3D83DB131A7C28430061F0D1 /* BeerStylesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D83DB121A7C28430061F0D1 /* BeerStylesView.xib */; };
+		3D83DB151A7C2D740061F0D1 /* BeerStylesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D83DB141A7C2D740061F0D1 /* BeerStylesView.swift */; };
+		3D97910E1A7061F200762897 /* SRMColorController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D97910D1A7061F200762897 /* SRMColorController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3D2D460E1A7021710049813E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D2D45F01A7021710049813E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D2D45F71A7021710049813E;
+			remoteInfo = "Beer SRM Scale";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3D2D45F81A7021710049813E /* Beer SRM Scale.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Beer SRM Scale.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D2D45FC1A7021710049813E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D2D45FD1A7021710049813E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3D2D45FF1A7021710049813E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3D2D46021A7021710049813E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D2D46041A7021710049813E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3D2D46071A7021710049813E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3D2D460D1A7021710049813E /* Beer SRM ScaleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Beer SRM ScaleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D2D46121A7021710049813E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D2D46131A7021710049813E /* Beer_SRM_ScaleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beer_SRM_ScaleTests.swift; sourceTree = "<group>"; };
+		3D549E141A76FD80006DDC8F /* BeerStylesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeerStylesController.swift; sourceTree = "<group>"; };
+		3D549E171A770807006DDC8F /* BeerStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeerStyle.swift; sourceTree = "<group>"; };
+		3D83DB121A7C28430061F0D1 /* BeerStylesView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BeerStylesView.xib; sourceTree = "<group>"; };
+		3D83DB141A7C2D740061F0D1 /* BeerStylesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeerStylesView.swift; sourceTree = "<group>"; };
+		3D97910B1A7061F200762897 /* Beer SRM Scale-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Beer SRM Scale-Bridging-Header.h"; sourceTree = "<group>"; };
+		3D97910C1A7061F200762897 /* SRMColorController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SRMColorController.h; path = ../SRMColorController.h; sourceTree = "<group>"; };
+		3D97910D1A7061F200762897 /* SRMColorController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SRMColorController.m; path = ../SRMColorController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D2D45F51A7021710049813E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D2D460A1A7021710049813E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D2D45EF1A7021710049813E = {
+			isa = PBXGroup;
+			children = (
+				3D2D45FA1A7021710049813E /* Beer SRM Scale */,
+				3D2D46101A7021710049813E /* Beer SRM ScaleTests */,
+				3D2D45F91A7021710049813E /* Products */,
+				3D97910B1A7061F200762897 /* Beer SRM Scale-Bridging-Header.h */,
+			);
+			sourceTree = "<group>";
+		};
+		3D2D45F91A7021710049813E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D2D45F81A7021710049813E /* Beer SRM Scale.app */,
+				3D2D460D1A7021710049813E /* Beer SRM ScaleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D2D45FA1A7021710049813E /* Beer SRM Scale */ = {
+			isa = PBXGroup;
+			children = (
+				3D549E0F1A76FA2A006DDC8F /* Model */,
+				3D549E101A76FA31006DDC8F /* View */,
+				3D549E111A76FA38006DDC8F /* Controller */,
+				3D2D45FB1A7021710049813E /* Supporting Files */,
+			);
+			path = "Beer SRM Scale";
+			sourceTree = "<group>";
+		};
+		3D2D45FB1A7021710049813E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D2D45FC1A7021710049813E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3D2D46101A7021710049813E /* Beer SRM ScaleTests */ = {
+			isa = PBXGroup;
+			children = (
+				3D2D46131A7021710049813E /* Beer_SRM_ScaleTests.swift */,
+				3D2D46111A7021710049813E /* Supporting Files */,
+			);
+			path = "Beer SRM ScaleTests";
+			sourceTree = "<group>";
+		};
+		3D2D46111A7021710049813E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D2D46121A7021710049813E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3D549E0F1A76FA2A006DDC8F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3D549E171A770807006DDC8F /* BeerStyle.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		3D549E101A76FA31006DDC8F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3D2D46011A7021710049813E /* Main.storyboard */,
+				3D83DB141A7C2D740061F0D1 /* BeerStylesView.swift */,
+				3D83DB121A7C28430061F0D1 /* BeerStylesView.xib */,
+				3D2D46061A7021710049813E /* LaunchScreen.xib */,
+				3D2D46041A7021710049813E /* Images.xcassets */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		3D549E111A76FA38006DDC8F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3D2D45FD1A7021710049813E /* AppDelegate.swift */,
+				3D2D45FF1A7021710049813E /* ViewController.swift */,
+				3D549E141A76FD80006DDC8F /* BeerStylesController.swift */,
+				3D549E161A76FD90006DDC8F /* SRMColorController */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		3D549E161A76FD90006DDC8F /* SRMColorController */ = {
+			isa = PBXGroup;
+			children = (
+				3D97910C1A7061F200762897 /* SRMColorController.h */,
+				3D97910D1A7061F200762897 /* SRMColorController.m */,
+			);
+			name = SRMColorController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D2D45F71A7021710049813E /* Beer SRM Scale */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D2D46171A7021710049813E /* Build configuration list for PBXNativeTarget "Beer SRM Scale" */;
+			buildPhases = (
+				3D2D45F41A7021710049813E /* Sources */,
+				3D2D45F51A7021710049813E /* Frameworks */,
+				3D2D45F61A7021710049813E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Beer SRM Scale";
+			productName = "Beer SRM Scale";
+			productReference = 3D2D45F81A7021710049813E /* Beer SRM Scale.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3D2D460C1A7021710049813E /* Beer SRM ScaleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D2D461A1A7021710049813E /* Build configuration list for PBXNativeTarget "Beer SRM ScaleTests" */;
+			buildPhases = (
+				3D2D46091A7021710049813E /* Sources */,
+				3D2D460A1A7021710049813E /* Frameworks */,
+				3D2D460B1A7021710049813E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D2D460F1A7021710049813E /* PBXTargetDependency */,
+			);
+			name = "Beer SRM ScaleTests";
+			productName = "Beer SRM ScaleTests";
+			productReference = 3D2D460D1A7021710049813E /* Beer SRM ScaleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D2D45F01A7021710049813E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Cole Bratcher";
+				TargetAttributes = {
+					3D2D45F71A7021710049813E = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					3D2D460C1A7021710049813E = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 3D2D45F71A7021710049813E;
+					};
+				};
+			};
+			buildConfigurationList = 3D2D45F31A7021710049813E /* Build configuration list for PBXProject "Beer SRM Scale" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D2D45EF1A7021710049813E;
+			productRefGroup = 3D2D45F91A7021710049813E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D2D45F71A7021710049813E /* Beer SRM Scale */,
+				3D2D460C1A7021710049813E /* Beer SRM ScaleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D2D45F61A7021710049813E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D2D46031A7021710049813E /* Main.storyboard in Resources */,
+				3D83DB131A7C28430061F0D1 /* BeerStylesView.xib in Resources */,
+				3D2D46081A7021710049813E /* LaunchScreen.xib in Resources */,
+				3D2D46051A7021710049813E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D2D460B1A7021710049813E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D2D45F41A7021710049813E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D83DB151A7C2D740061F0D1 /* BeerStylesView.swift in Sources */,
+				3D2D46001A7021710049813E /* ViewController.swift in Sources */,
+				3D2D45FE1A7021710049813E /* AppDelegate.swift in Sources */,
+				3D549E181A770807006DDC8F /* BeerStyle.swift in Sources */,
+				3D97910E1A7061F200762897 /* SRMColorController.m in Sources */,
+				3D549E151A76FD80006DDC8F /* BeerStylesController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D2D46091A7021710049813E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D2D46141A7021710049813E /* Beer_SRM_ScaleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D2D460F1A7021710049813E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D2D45F71A7021710049813E /* Beer SRM Scale */;
+			targetProxy = 3D2D460E1A7021710049813E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3D2D46011A7021710049813E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D2D46021A7021710049813E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3D2D46061A7021710049813E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D2D46071A7021710049813E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D2D46151A7021710049813E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3D2D46161A7021710049813E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D2D46181A7021710049813E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = NO;
+				INFOPLIST_FILE = "Beer SRM Scale/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/colebratcher/Documents/Code/Beer SRM Scale/Beer SRM Scale-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3D2D46191A7021710049813E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = NO;
+				INFOPLIST_FILE = "Beer SRM Scale/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/colebratcher/Documents/Code/Beer SRM Scale/Beer SRM Scale-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		3D2D461B1A7021710049813E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Beer SRM ScaleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Beer SRM Scale.app/Beer SRM Scale";
+			};
+			name = Debug;
+		};
+		3D2D461C1A7021710049813E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Beer SRM ScaleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Beer SRM Scale.app/Beer SRM Scale";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D2D45F31A7021710049813E /* Build configuration list for PBXProject "Beer SRM Scale" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D2D46151A7021710049813E /* Debug */,
+				3D2D46161A7021710049813E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D2D46171A7021710049813E /* Build configuration list for PBXNativeTarget "Beer SRM Scale" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D2D46181A7021710049813E /* Debug */,
+				3D2D46191A7021710049813E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D2D461A1A7021710049813E /* Build configuration list for PBXNativeTarget "Beer SRM ScaleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D2D461B1A7021710049813E /* Debug */,
+				3D2D461C1A7021710049813E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D2D45F01A7021710049813E /* Project object */;
+}
